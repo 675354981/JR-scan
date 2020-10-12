@@ -1,0 +1,66 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+'''
+name: cms漏洞库
+referer: unknow
+author: Lucifer
+description: 包含所有cms漏洞类型，封装成一个模块
+'''
+
+#泛微
+from POC_Scan.cms.weaver_oa.weaver_oa_download_sqli import weaver_oa_download_sqli_BaseVerify
+from POC_Scan.cms.weaver_oa.weaver_oa_db_disclosure import weaver_oa_db_disclosure_BaseVerify
+from POC_Scan.cms.weaver_oa.weaver_oa_filedownload import weaver_oa_filedownload_BaseVerify
+
+#深信服
+from POC_Scan.cms.sangfor.sanfor_edr import sanfor_edr_rce_BaseVerify
+
+#通达
+from POC_Scan.cms.tongda_oa.tongdaRCE import tongda_rce_BaseVerify
+
+#phpok vulns
+from POC_Scan.cms.phpok.phpok_res_action_control_filedownload import phpok_res_action_control_filedownload_BaseVerify
+from POC_Scan.cms.phpok.phpok_api_param_sqli import phpok_api_param_sqli_BaseVerify
+from POC_Scan.cms.phpok.phpok_remote_image_getshell import phpok_remote_image_getshell_BaseVerify
+
+#phpstudy vuls
+from POC_Scan.cms.phpstudy.phpstudy_backdoor import phpstudy_backdoor_BaseVerify
+
+#discuz! vulns
+from POC_Scan.cms.discuz.discuz_forum_message_ssrf import discuz_forum_message_ssrf_BaseVerify
+from POC_Scan.cms.discuz.discuz_focus_flashxss import discuz_focus_flashxss_BaseVerify
+from POC_Scan.cms.discuz.discuz_x25_path_disclosure import discuz_x25_path_disclosure_BaseVerify
+from POC_Scan.cms.discuz.discuz_plugin_ques_sqli import discuz_plugin_ques_sqli_BaseVerify
+
+#dedecms vulns
+from POC_Scan.cms.dedecms.dedecms_version import dedecms_version_BaseVerify
+from POC_Scan.cms.dedecms.dedecms_recommend_sqli import dedecms_recommend_sqli_BaseVerify
+from POC_Scan.cms.dedecms.dedecms_download_redirect import dedecms_download_redirect_BaseVerify
+from POC_Scan.cms.dedecms.dedecms_error_trace_disclosure import dedecms_error_trace_disclosure_BaseVerify
+from POC_Scan.cms.dedecms.dedecms_search_typeArr_sqli import dedecms_search_typeArr_sqli_BaseVerify
+
+#wordpress vulns
+from POC_Scan.cms.wordpress.wordpress_plugin_azonpop_sqli import wordpress_plugin_azonpop_sqli_BaseVerify
+from POC_Scan.cms.wordpress.wordpress_plugin_ShortCode_lfi import wordpress_plugin_ShortCode_lfi_BaseVerify
+from POC_Scan.cms.wordpress.wordpress_url_redirect import wordpress_url_redirect_BaseVerify
+from POC_Scan.cms.wordpress.wordpress_woocommerce_code_exec import wordpress_woocommerce_code_exec_BaseVerify
+from POC_Scan.cms.wordpress.wordpress_plugin_mailpress_rce import wordpress_plugin_mailpress_rce_BaseVerify
+from POC_Scan.cms.wordpress.wordpress_admin_ajax_filedownload import wordpress_admin_ajax_filedownload_BaseVerify
+from POC_Scan.cms.wordpress.wordpress_restapi_sqli import wordpress_restapi_sqli_BaseVerify
+from POC_Scan.cms.wordpress.wordpress_display_widgets_backdoor import wordpress_display_widgets_backdoor_BaseVerify
+
+#joomla vulns
+from POC_Scan.cms.joomla.joomla_com_docman_lfi import joomla_com_docman_lfi_BaseVerify
+from POC_Scan.cms.joomla.joomla_index_list_sqli import joomla_index_list_sqli_BaseVerify
+
+#phpcms vulns
+from POC_Scan.cms.phpcms.phpcms_digg_add_sqli import phpcms_digg_add_sqli_BaseVerify
+from POC_Scan.cms.phpcms.phpcms_authkey_disclosure import phpcms_authkey_disclosure_BaseVerify
+from POC_Scan.cms.phpcms.phpcms_flash_upload_sqli import phpcms_flash_upload_sqli_BaseVerify
+from POC_Scan.cms.phpcms.phpcms_product_code_exec import phpcms_product_code_exec_BaseVerify
+from POC_Scan.cms.phpcms.phpcms_v96_sqli import phpcms_v96_sqli_BaseVerify
+from POC_Scan.cms.phpcms.phpcms_v961_fileread import phpcms_v961_fileread_BaseVerify
+from POC_Scan.cms.phpcms.phpcms_v9_flash_xss import phpcms_v9_flash_xss_BaseVerify
+
+#phpmyadmin vulns
+from POC_Scan.cms.phpmyadmin.phpmyadmin_setup_lfi import phpmyadmin_setup_lfi_BaseVerify

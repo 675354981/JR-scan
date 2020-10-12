@@ -1,0 +1,26 @@
+#ssh漏洞
+from POC_Scan.system.ssh.libssh_bypass_auth import libssh_bypass_auth_BaseVerify
+
+#tomcat vulns
+from POC_Scan.system.tomcat.tomcat_put_exec import tomcat_put_exec_BaseVerify
+from POC_Scan.system.tomcat.tomcat_Ajp_lfi import tomcat_Ajp_lfi_BaseVerify
+
+#nginx vulns
+from POC_Scan.system.nginx.multi_fastcgi_code_exec import multi_fastcgi_code_exec_BaseVerify
+
+#weblogic vulns
+from POC_Scan.system.weblogic.weblogic_ssrf import weblogic_ssrf_BaseVerify
+from POC_Scan.system.weblogic.weblogic_xmldecoder_exec import weblogic_xmldecoder_exec_BaseVerify
+from POC_Scan.system.weblogic.weblogic_interface_disclosure import weblogic_interface_disclosure_BaseVerify
+from POC_Scan.system.weblogic.weblogic_ws_utc_xxe import weblogic_ws_utc_xxe_BaseVerify
+
+#php vulns
+from POC_Scan.system.php.php_expose_disclosure import php_expose_disclosure_BaseVerify
+from POC_Scan.system.php.php_fastcgi_read import php_fastcgi_read_BaseVerify
+
+#iis vulns
+from POC_Scan.system.iis.iis_webdav_rce import iis_webdav_rce_BaseVerify
+
+#windows
+from POC_Scan.system.windows.RDP_CodeExecution import rdp_code_execution_BaseVerify
+from POC_Scan.system.windows.smb_code_execution import smb_code_execution_BaseVerify
