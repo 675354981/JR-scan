@@ -1,0 +1,14 @@
+gevent 20.9.0
+json
+re 
+time
+termcolor 1.1.0
+pyfiglet 0.8
+dns 0.0.1
+dnspython 2.0.0
+nmap 0.0.1
+geoip2 4.1.0
+PySocks
+bs4
+lxml
+IPy 1.00
