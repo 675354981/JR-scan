@@ -3,3 +3,5 @@
 在启动扫描器后，傻瓜式操作即可完成扫描。
 启动方法：直接利用Python3运行JR.py即可
 提示：最好是在liux环境下运行，win的话，可能会出现编码问题！！！
+![image](https://github.com/675354981/JR-scan/blob/master/images/%E5%90%AF%E5%8A%A8.png)
+![image](https://github.com/675354981/JR-scan/blob/master/images/dbs.png)
