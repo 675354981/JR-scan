@@ -5,3 +5,7 @@
 提示：最好是在liux环境下运行，win的话，可能会出现编码问题！！！  
 ![image](https://github.com/675354981/JR-scan/blob/master/images/%E5%90%AF%E5%8A%A8.png)
 ![image](https://github.com/675354981/JR-scan/blob/master/images/dbs.png)
+![image](https://github.com/675354981/JR-scan/blob/master/images/%E6%95%B4%E7%AB%99.png)
+![image](https://github.com/675354981/JR-scan/blob/master/images/port.png)
+![image](https://github.com/675354981/JR-scan/blob/master/images/url.png)
+![image](https://github.com/675354981/JR-scan/blob/master/images/vuln.png)
